@@ -1,1 +1,76 @@
 /* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3c4539;
+    ;
+
+}
+
+header>div {
+    text-align: left;
+    color: white;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.logo {
+
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+
+}
+
+main>div {
+    display: flex;
+    align-items: center;
+
+}
+
+.user1 {
+    width: 130px;
+    min-height: 110px;
+    border-color: white;
+    border-radius: 50%;
+
+}
+
+.user2 {
+    width: 130px;
+    min-height: 110px;
+    border-color: white;
+    border-radius: 50%;
+}
+
+.user3 {
+    width: 130px;
+    min-height: 110px;
+    border-color: white;
+    border-radius: 50%;
+}
+
+.user4 {
+    width: 130px;
+    min-height: 110px;
+    border-color: white;
+    border-radius: 50%;
+}
+
+.parafra {
+
+    width: 300px;
+    min-height: 95px;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(5, 2, 2);
+
+}
