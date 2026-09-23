@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+.pagina {
+    border: 2px solid white;
+    width: 50%;
+    margin: 20px auto;
+}
+
+
 body {
     background-color: #3c4539;
     ;
@@ -28,10 +35,25 @@ header>div {
 
 }
 
+.USERS {
+    width: 300px;
+    min-height: 95px;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(5, 2, 2);
+    font-size: 50px;
+}
+
 main>div {
     display: flex;
     align-items: center;
 
+}
+
+h2 {
+    color: white;
 }
 
 .user1 {
@@ -73,4 +95,14 @@ main>div {
     color: white;
     background-color: rgb(5, 2, 2);
 
+}
+
+footer>div {
+    text-align: center;
+    color: white;
+    background-color: rgb(5, 2, 2);
+    width: 300px;
+    min-height: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
 }
